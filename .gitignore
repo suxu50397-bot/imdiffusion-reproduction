@@ -1,0 +1,31 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境
+venv/
+.env/
+.venv/
+
+# IDE 配置
+.idea/
+.vscode/
+
+# 训练输出 / 日志
+logs/
+runs/
+results/
+checkpoints/
+*.log
+
+# 数据集（不推原始数据）
+data/
+dataset/
+datasets/
+
+# 临时文件
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
